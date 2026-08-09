@@ -204,7 +204,7 @@ class FloodSeverityXGBoostModel:
             'label_encoder': self.label_encoder,
             'feature_names': self.feature_names
         }
-        
+        1
         with open(model_path, 'wb') as f:
             pickle.dump(model_data, f)
         
